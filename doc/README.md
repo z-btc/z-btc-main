@@ -1,35 +1,35 @@
-Bitcoin SV
+Z-BTC
 =====================
 
 Setup
 ---------------------
-Bitcoin SV is an implementation of a node for the Bitcoin SV network and is one of the pieces of software that provide 
-the backbone of the network. It downloads and stores the entire history of Bitcoin SV transactions (which is currently 
+Z-BTC is an implementation of a node for the Z-BTC network and is one of the pieces of software that provide 
+the backbone of the network. It downloads and stores the entire history of Z-BTC transactions (which is currently 
 several GBs); depending on the speed of your computer and network connection, the synchronization process can take 
 anywhere from a few hours to a day or more.
 
-To download Bitcoin SV, visit [bitcoinsv.io](https://bitcoinsv.io/).
+To download Z-BTC, visit [Z-BTC.com](https://Z-BTC.com/).
 
 Running
 ---------------------
-Bitcoin SV is only supported on the Linux and docker platforms at this time.
+Z-BTC is only supported on the Linux and docker platforms at this time.
 
-To run Bitcoin SV on Linux:
+To run Z-BTC on Linux:
 
-* ensure that your system meets the minimum recommended [system requirements](https://bitcoinsv.io/2019/08/02/bitcoin-sv-node-system-requirements/)
+* ensure that your system meets the minimum recommended [system requirements](#)
 * unpack the files into a directory
 * run `bin/bitcoind`
 
-A docker image is available from https://hub.docker.com/r/bitcoinsv/bitcoin-sv. Images are tagged with 
+A docker image is available from #. Images are tagged with 
 the release version number. The `latest` tag is updated as new versions are released. The source for this image 
-(Dockerfiles etc) is maintained in a GitHub repository: https://github.com/bitcoin-sv/docker-sv. 
+(Dockerfiles etc) is maintained in a GitHub repository: https://github.com/z-btc/z-btc. 
  
 ### Need Help?
 
-* Log an issue on [GitHub] (https://github.com/bitcoin-sv/bitcoin-sv/issues)
-* Ask for help on the [Bitcoin SV Subreddit](https://www.reddit.com/r/bitcoinSV/) or
-[Bictoin Cash SV Subreddit](https://www.reddit.com/r/bitcoincashSV/).
-* Consult [Bitcoin SV Wiki](https://wiki.bitcoinsv.io/) for information about Bitcoin protocol.
+* Log an issue on [GitHub] (https://github.com/z-btc/z-btc/issues)
+* Ask for help on the [Z-BTC Subreddit](https://www.reddit.com/r/z-btc/) or
+[Z-BTC Subreddit](https://www.reddit.com/r/z-btc/).
+* Consult [Z-BTC Wiki](https://wiki.Z-BTC.com/) for information about Bitcoin protocol.
 
 Building
 ---------------------
@@ -41,7 +41,7 @@ necessary libraries, compile flags, etc.
 
 Development
 ---------------------
-The Bitcoin SV repo's [root README](/README.md) contains relevant information on the development process and automated 
+The Z-BTC repo's [root README](/README.md) contains relevant information on the development process and automated 
 testing.
 
 - [Developer Notes](developer-notes.md)
